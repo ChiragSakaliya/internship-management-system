@@ -1,0 +1,115 @@
+/* Final styling: white background, bordered container, dark button, compact form */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+  }
+  
+  .container {
+    max-width: 380px;
+    margin: 130px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    text-align: center;
+    color: #2e2e2e;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .formGroup label {
+    font-weight: 600;
+    font-size: 15px;
+    color: #333333;
+  }
+  
+  .formGroup input,
+  .formGroup textarea,
+  .formGroup select {
+    padding: 8px 10px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+  }
+  
+  .formGroup input:focus,
+  .formGroup textarea:focus,
+  .formGroup select:focus {
+    border-color: #2e2e2e;
+    outline: none;
+    background-color: #ffffff;
+  }
+  
+  .submitButton {
+    padding: 10px;
+    background-color: #2e2e2e;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #1a1a1a;
+  }
+  
+  .error {
+    color: #d9534f;
+    font-size: 12px;
+    margin-top: -4px;
+  }
+  
+  .apiMessage {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    font-size: 15px;
+  }
+  
+  .registrationLinks {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #333;
+  }
+  
+  .registrationLinks a {
+    color: #2e2e2e;
+    text-decoration: none;
+  }
+  
+  .registrationLinks a:hover {
+    text-decoration: underline;
+  }
+  
+  
